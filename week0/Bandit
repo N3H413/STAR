@@ -1,0 +1,56 @@
+ssh -p 2220 bandit0@bandit.labs.overthewire.org
+bandit0
+
+ls
+cat readme
+The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+exit the particular level before ssh into the next one
+
+cat ./- (tools like cat misinterpret the filename as a command otherwise)
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+cat ./"--spaces in this filename--"
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+cd inhere
+ls -a
+cat ...Hiding-From-You
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+cat ./-file07
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+LEVEL 5
+Blue: Directory
+Green: Executable or recognized data file
+Cyan (Sky Blue): Symbolic link file
+Yellow with black background: Device
+Magenta (Pink): Graphic image file
+Red: Archive file
+Red with black background: Broken link
+
+du -a -b
+ls -a
+cat ./.file2
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
+du -a -b | grep bandit7
+ls -a | grep bandit
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+cat data.txt | grep millionth
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+sort data.txt | uniq -u
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+strings data.txt | grep ===
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+base64 -d data.txt
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
