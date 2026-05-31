@@ -1,0 +1,1 @@
+Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces -- -j12 -l12

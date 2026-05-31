@@ -1,0 +1,15 @@
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/ament_index/resource_index/package_run_dependencies/tuos_ros
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/ament_index/resource_index/parent_prefix_path/tuos_ros
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/environment/ament_prefix_path.sh
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/environment/ament_prefix_path.dsv
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/environment/path.sh
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/environment/path.dsv
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/local_setup.bash
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/local_setup.sh
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/local_setup.zsh
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/local_setup.dsv
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.dsv
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/ament_index/resource_index/packages/tuos_ros
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/cmake/tuos_rosConfig.cmake
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/cmake/tuos_rosConfig-version.cmake
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.xml

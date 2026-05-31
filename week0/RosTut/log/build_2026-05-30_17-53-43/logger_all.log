@@ -1,0 +1,535 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4fbcb80b80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4fbcc7e050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4fbcc7e050>>)
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.249s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'part1_pubsub' with type 'ros.ament_cmake' and name 'part1_pubsub'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/com2009_simulations' with type 'ros.ament_cmake' and name 'com2009_simulations'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_examples' with type 'ros.ament_cmake' and name 'tuos_examples'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_interfaces' with type 'ros.ament_cmake' and name 'tuos_interfaces'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_ros' with type 'ros.ament_cmake' and name 'tuos_ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_simulations' with type 'ros.ament_cmake' and name 'tuos_simulations'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_tb3_tools' with type 'ros.ament_cmake' and name 'tuos_tb3_tools'
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'part1_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/part1_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_examples', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_tb3_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_tb3_tools', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'com2009_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/com2009_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_ros', 'symlink_install': False, 'test_result_base': None}
+[0.341s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_simulations' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_simulations'
+[0.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_examples' with build type 'ament_cmake'
+[0.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_examples'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces' with build type 'ament_cmake'
+[0.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_tb3_tools' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_tb3_tools'
+[0.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/part1_pubsub' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/part1_pubsub'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations -- -j12 -l12
+[0.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples -- -j12 -l12
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces -- -j12 -l12
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools -- -j12 -l12
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub -- -j12 -l12
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations -- -j12 -l12
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations
+[0.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_simulations)
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations' for CMake module files
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations' for CMake config files
+[0.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_simulations', 'cmake_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.dsv'
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.sh'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/bin'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/lib/pkgconfig/tuos_simulations.pc'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/lib/python3.10/site-packages'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/bin'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.sh'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.zsh'
+[0.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/colcon-core/packages/tuos_simulations)
+[0.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_simulations)
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations' for CMake module files
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations' for CMake config files
+[0.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_simulations', 'cmake_prefix_path')
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/bin'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/lib/pkgconfig/tuos_simulations.pc'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/lib/python3.10/site-packages'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/bin'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.sh'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.bash'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/tuos_simulations/package.zsh'
+[0.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations/share/colcon-core/packages/tuos_simulations)
+[0.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/com2009_simulations' with build type 'ament_cmake'
+[0.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/com2009_simulations'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools -- -j12 -l12
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations -- -j12 -l12
+[0.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_tb3_tools)
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools' for CMake module files
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools' for CMake config files
+[0.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_tb3_tools', 'cmake_prefix_path')
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.sh'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/lib'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/bin'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/lib/pkgconfig/tuos_tb3_tools.pc'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/lib/python3.10/site-packages'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/bin'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.ps1'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.bash'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.zsh'
+[0.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/colcon-core/packages/tuos_tb3_tools)
+[0.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_tb3_tools)
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools' for CMake module files
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools' for CMake config files
+[0.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_tb3_tools', 'cmake_prefix_path')
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.ps1'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.dsv'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.sh'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/lib'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/bin'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/lib/pkgconfig/tuos_tb3_tools.pc'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/lib/python3.10/site-packages'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/bin'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.sh'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.bash'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/tuos_tb3_tools/package.zsh'
+[0.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools/share/colcon-core/packages/tuos_tb3_tools)
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations' returned '0': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations -- -j12 -l12
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations
+[0.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(com2009_simulations)
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations' for CMake module files
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations' for CMake config files
+[0.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('com2009_simulations', 'cmake_prefix_path')
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.sh'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/bin'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/lib/pkgconfig/com2009_simulations.pc'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/lib/python3.10/site-packages'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/bin'
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations' returned '0': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/com2009_simulations
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.sh'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.bash'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.zsh'
+[0.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/colcon-core/packages/com2009_simulations)
+[0.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(com2009_simulations)
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations' for CMake module files
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('com2009_simulations', 'cmake_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/bin'
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/lib/pkgconfig/com2009_simulations.pc'
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/lib/python3.10/site-packages'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/bin'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.sh'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.bash'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/com2009_simulations/package.zsh'
+[0.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations/share/colcon-core/packages/com2009_simulations)
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces -- -j12 -l12
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples -- -j12 -l12
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub -- -j12 -l12
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub
+[0.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_interfaces)
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces' for CMake module files
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces' for CMake config files
+[0.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'cmake_prefix_path')
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.sh'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib'
+[0.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'ld_library_path_lib')
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.sh'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/bin'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib/pkgconfig/tuos_interfaces.pc'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib/python3.10/site-packages'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/bin'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.dsv'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.sh'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.bash'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.zsh'
+[0.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/colcon-core/packages/tuos_interfaces)
+[0.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_interfaces)
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces' for CMake module files
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces' for CMake config files
+[0.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'cmake_prefix_path')
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.sh'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib'
+[0.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'ld_library_path_lib')
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.dsv'
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.sh'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/bin'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib/pkgconfig/tuos_interfaces.pc'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib/python3.10/site-packages'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/bin'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.ps1'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.dsv'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.sh'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.bash'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.zsh'
+[0.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/share/colcon-core/packages/tuos_interfaces)
+[0.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_examples)
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples' for CMake module files
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples' for CMake config files
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples
+[0.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_examples', 'cmake_prefix_path')
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/lib'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/lib/pkgconfig/tuos_examples.pc'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/lib/python3.10/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/bin'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.sh'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.bash'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.zsh'
+[0.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/colcon-core/packages/tuos_examples)
+[0.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_examples)
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples' for CMake module files
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples' for CMake config files
+[0.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_examples', 'cmake_prefix_path')
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.sh'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/lib'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/bin'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/lib/pkgconfig/tuos_examples.pc'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/lib/python3.10/site-packages'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/bin'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.sh'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.bash'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/tuos_examples/package.zsh'
+[0.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples/share/colcon-core/packages/tuos_examples)
+[0.984s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_ros' with build type 'ament_cmake'
+[0.984s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_ros'
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part1_pubsub)
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub' for CMake module files
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub' for CMake config files
+[1.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'cmake_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.sh'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib'
+[1.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'ld_library_path_lib')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/bin'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib/pkgconfig/part1_pubsub.pc'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib/python3.10/site-packages'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/bin'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.ps1'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.sh'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.bash'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.zsh'
+[1.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/colcon-core/packages/part1_pubsub)
+[1.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part1_pubsub)
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub' for CMake module files
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub' for CMake config files
+[1.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'cmake_prefix_path')
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.sh'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib'
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'ld_library_path_lib')
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.sh'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/bin'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib/pkgconfig/part1_pubsub.pc'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib/python3.10/site-packages'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/bin'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.sh'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.bash'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/part1_pubsub/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/share/colcon-core/packages/part1_pubsub)
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros -- -j12 -l12
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros' returned '0': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros -- -j12 -l12
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros
+[1.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_ros)
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros' for CMake module files
+[1.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros' returned '0': CMAKE_PREFIX_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/com2009_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_tb3_tools:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_interfaces/lib:/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_ros
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros' for CMake config files
+[1.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_ros', 'cmake_prefix_path')
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.sh'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/bin'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/lib/pkgconfig/tuos_ros.pc'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/lib/python3.10/site-packages'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/bin'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.sh'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.bash'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.zsh'
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/colcon-core/packages/tuos_ros)
+[1.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_ros)
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros' for CMake module files
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros' for CMake config files
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_ros', 'cmake_prefix_path')
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.ps1'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.sh'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/lib/pkgconfig/tuos_ros.pc'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/lib/python3.10/site-packages'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/bin'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.bash'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/tuos_ros/package.zsh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_ros/share/colcon-core/packages/tuos_ros)
+[1.076s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.077s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.082s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.082s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.082s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.091s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/local_setup.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/_local_setup_util_ps1.py'
+[1.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/setup.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/local_setup.sh'
+[1.096s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/_local_setup_util_sh.py'
+[1.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/setup.sh'
+[1.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/local_setup.bash'
+[1.098s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/setup.bash'
+[1.100s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/local_setup.zsh'
+[1.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/setup.zsh'

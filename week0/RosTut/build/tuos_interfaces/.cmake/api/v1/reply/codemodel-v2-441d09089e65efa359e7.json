@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6417148727c21ec56c41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "tuos_interfaces__py",
+					"jsonFile" : "directory-tuos_interfaces__py-d2ecd1a371a70eff1274.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces/tuos_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "tuos_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tuos_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tuos_interfaces_egg-361f46a22bc1a938ad67.json",
+					"name" : "ament_cmake_python_build_tuos_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_tuos_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_tuos_interfaces-79d191c4cc8afe966ac0.json",
+					"name" : "ament_cmake_python_copy_tuos_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces-80230450e636e157adf2.json",
+					"name" : "tuos_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__cpp-e2940f70128acf621472.json",
+					"name" : "tuos_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tuos_interfaces__py::@a9bcfc312249efb33d21",
+					"jsonFile" : "target-tuos_interfaces__py-55d72a916775cf02af5f.json",
+					"name" : "tuos_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_generator_c-9e02c9724139a2fd3098.json",
+					"name" : "tuos_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_generator_py-eb7c535c212017900c77.json",
+					"name" : "tuos_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_c-3a9ec4131cd9fd89ac15.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_c__pyext-cfac2b6d8c6d775f39cb.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_cpp-50e468c16098ce2475e7.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_fastrtps_c-d087193b0f6a3da4c82d.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_fastrtps_c__pyext-d5af405f7dd507d72b98.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_fastrtps_cpp-e5e7f1d216070ab52ff0.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_introspection_c-375d312e0bfd373910f4.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_introspection_c__pyext-c7ee35d103d95576b48b.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces__rosidl_typesupport_introspection_cpp-a6dbf838f7185ab2b434.json",
+					"name" : "tuos_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuos_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuos_interfaces_uninstall-b9a528017b8e4b1673d6.json",
+					"name" : "tuos_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6fbbe5521838f4923a62.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces",
+		"source" : "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

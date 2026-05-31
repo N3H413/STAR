@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "part1_pubsub__py",
+		"source" : "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub/part1_pubsub__py"
+	}
+}

@@ -1,0 +1,36 @@
+[0.023s] Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_simulations -DCMAKE_INSTALL_PREFIX=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.291s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.295s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.617s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.735s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.750s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[0.750s]   By not providing "Findturtlebot3_gazebo.cmake" in CMAKE_MODULE_PATH this
+[0.750s]   project has asked CMake to find a package configuration file provided by
+[0.750s]   "turtlebot3_gazebo", but CMake did not find one.
+[0.750s] 
+[0.751s]   Could not find a package configuration file provided by "turtlebot3_gazebo"
+[0.751s]   with any of the following names:
+[0.751s] 
+[0.751s]     turtlebot3_gazeboConfig.cmake
+[0.751s]     turtlebot3_gazebo-config.cmake
+[0.751s] 
+[0.751s]   Add the installation prefix of "turtlebot3_gazebo" to CMAKE_PREFIX_PATH or
+[0.751s]   set "turtlebot3_gazebo_DIR" to a directory containing one of the above
+[0.751s]   files.  If "turtlebot3_gazebo" provides a separate development package or
+[0.751s]   SDK, be sure it has been installed.
+[0.751s] 
+[0.751s] [0m
+[0.752s] -- Configuring incomplete, errors occurred!
+[0.752s] See also "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/CMakeOutput.log".
+[0.758s] Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_simulations -DCMAKE_INSTALL_PREFIX=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_simulations

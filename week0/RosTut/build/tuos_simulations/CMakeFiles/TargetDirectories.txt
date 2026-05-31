@@ -1,0 +1,9 @@
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/uninstall.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/tuos_simulations_uninstall.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/test.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/edit_cache.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/rebuild_cache.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/list_install_components.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/install.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/install/local.dir
+/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_simulations/CMakeFiles/install/strip.dir

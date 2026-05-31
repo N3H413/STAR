@@ -1,0 +1,71 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_tuos_interfaces
+running egg_info
+creating tuos_interfaces.egg-info
+writing tuos_interfaces.egg-info/PKG-INFO
+writing dependency_links to tuos_interfaces.egg-info/dependency_links.txt
+writing top-level names to tuos_interfaces.egg-info/top_level.txt
+writing manifest file 'tuos_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'tuos_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'tuos_interfaces.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_tuos_interfaces_egg
+[ 10%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tuos_interfaces/msg/detail/num__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tuos_interfaces/srv/detail/number_game__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tuos_interfaces/action/detail/camera_sweep__functions.c.o[0m
+[ 10%] Built target tuos_interfaces__cpp
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [32m[1mLinking C shared library libtuos_interfaces__rosidl_generator_c.so[0m
+[ 19%] Built target tuos_interfaces__rosidl_generator_c
+[ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tuos_interfaces/srv/detail/number_game__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tuos_interfaces/msg/detail/num__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tuos_interfaces/action/detail/camera_sweep__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tuos_interfaces/msg/num__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tuos_interfaces/action/camera_sweep__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tuos_interfaces/srv/number_game__type_support.cpp.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/msg/detail/num__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/action/detail/camera_sweep__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/srv/detail/number_game__type_support.c.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tuos_interfaces/msg/num__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tuos_interfaces/action/camera_sweep__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tuos_interfaces/srv/number_game__type_support.cpp.o[0m
+[ 53%] [32m[1mLinking C shared library libtuos_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 55%] [32m[1mLinking CXX shared library libtuos_interfaces__rosidl_typesupport_c.so[0m
+[ 55%] Built target tuos_interfaces__rosidl_typesupport_introspection_c
+[ 57%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tuos_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tuos_interfaces/srv/detail/dds_fastrtps/number_game__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tuos_interfaces/action/detail/dds_fastrtps/camera_sweep__type_support.cpp.o[0m
+[ 61%] Built target tuos_interfaces__rosidl_typesupport_c
+[ 63%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tuos_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tuos_interfaces/action/detail/camera_sweep__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/tuos_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tuos_interfaces/srv/detail/number_game__type_support_c.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libtuos_interfaces__rosidl_typesupport_cpp.so[0m
+[ 70%] Built target tuos_interfaces__rosidl_typesupport_cpp
+[ 72%] [32m[1mLinking CXX shared library libtuos_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 72%] Built target tuos_interfaces__rosidl_typesupport_introspection_cpp
+[ 74%] [32m[1mLinking CXX shared library libtuos_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target tuos_interfaces__rosidl_typesupport_fastrtps_c
+[ 76%] [32m[1mLinking CXX shared library libtuos_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 76%] Built target tuos_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 76%] Built target tuos_interfaces
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target tuos_interfaces__py
+[ 82%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tuos_interfaces/msg/_num_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tuos_interfaces/action/_camera_sweep_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tuos_interfaces/srv/_number_game_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/tuos_interfaces/libtuos_interfaces__rosidl_generator_py.so[0m
+[ 87%] Built target tuos_interfaces__rosidl_generator_py
+[ 93%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tuos_interfaces/_tuos_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tuos_interfaces/_tuos_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/tuos_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tuos_interfaces/_tuos_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/tuos_interfaces/tuos_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/tuos_interfaces/tuos_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/tuos_interfaces/tuos_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target tuos_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target tuos_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target tuos_interfaces__rosidl_typesupport_introspection_c__pyext

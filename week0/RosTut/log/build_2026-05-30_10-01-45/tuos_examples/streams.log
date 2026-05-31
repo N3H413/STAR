@@ -1,0 +1,14 @@
+[0.021s] Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples -- -j12 -l12
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/minimal_node.cpp.o[0m
+[0.099s] [ 50%] Built target ament_cmake_python_copy_tuos_examples
+[0.473s] running egg_info
+[0.474s] creating tuos_examples.egg-info
+[0.475s] writing tuos_examples.egg-info/PKG-INFO
+[0.475s] writing dependency_links to tuos_examples.egg-info/dependency_links.txt
+[0.477s] writing top-level names to tuos_examples.egg-info/top_level.txt
+[0.477s] writing manifest file 'tuos_examples.egg-info/SOURCES.txt'
+[0.480s] reading manifest file 'tuos_examples.egg-info/SOURCES.txt'
+[0.481s] writing manifest file 'tuos_examples.egg-info/SOURCES.txt'
+[0.515s] [ 50%] Built target ament_cmake_python_build_tuos_examples_egg
+[4.715s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
+[4.857s] [100%] Built target cpp_executable

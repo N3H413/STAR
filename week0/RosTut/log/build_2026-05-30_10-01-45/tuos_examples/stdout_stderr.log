@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/minimal_node.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_tuos_examples
+running egg_info
+creating tuos_examples.egg-info
+writing tuos_examples.egg-info/PKG-INFO
+writing dependency_links to tuos_examples.egg-info/dependency_links.txt
+writing top-level names to tuos_examples.egg-info/top_level.txt
+writing manifest file 'tuos_examples.egg-info/SOURCES.txt'
+reading manifest file 'tuos_examples.egg-info/SOURCES.txt'
+writing manifest file 'tuos_examples.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_tuos_examples_egg
+[100%] [32m[1mLinking CXX executable cpp_executable[0m
+[100%] Built target cpp_executable
