@@ -1,1 +1,0 @@
-Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_examples -DCMAKE_INSTALL_PREFIX=/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/install/tuos_examples

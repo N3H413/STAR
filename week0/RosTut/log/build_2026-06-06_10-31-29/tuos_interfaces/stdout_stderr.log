@@ -1,4 +1,0 @@
-[0mCMake Error: The current CMakeCache.txt directory /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_interfaces/CMakeCache.txt is different than the directory /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0mCMake Error: The source directory "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:1179: cmake_check_build_system] Error 1

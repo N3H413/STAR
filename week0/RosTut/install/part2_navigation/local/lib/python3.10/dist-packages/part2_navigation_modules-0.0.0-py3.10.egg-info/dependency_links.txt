@@ -1,1 +1,0 @@
-/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation/ament_cmake_python/part2_navigation_modules/part2_navigation_modules.egg-info/dependency_links.txt

@@ -1,4 +1,0 @@
-[0.023s] Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools -- -j12 -l12
-[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/minimal_node.cpp.o[0m
-[4.676s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
-[4.848s] [100%] Built target cpp_executable

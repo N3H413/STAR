@@ -1,5 +1,0 @@
-[0.039s] Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part1_pubsub -- -j12 -l12
-[0.056s] [0mCMake Error: The current CMakeCache.txt directory /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part1_pubsub/CMakeCache.txt is different than the directory /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/part1_pubsub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.097s] [0mCMake Error: The source directory "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/part1_pubsub" does not exist.
-[0.097s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.099s] gmake: *** [Makefile:775: cmake_check_build_system] Error 1

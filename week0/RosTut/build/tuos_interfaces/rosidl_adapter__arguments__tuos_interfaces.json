@@ -1,8 +1,0 @@
-{
-  "package_name": "tuos_interfaces",
-  "non_idl_tuples": [
-    "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces:msg/Num.msg",
-    "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces:action/CameraSweep.action",
-    "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_interfaces:srv/NumberGame.srv"
-  ]
-}

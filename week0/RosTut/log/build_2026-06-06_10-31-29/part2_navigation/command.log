@@ -1,1 +1,0 @@
-Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part2_navigation -DCMAKE_INSTALL_PREFIX=/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation

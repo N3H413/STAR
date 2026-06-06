@@ -1,1 +1,0 @@
-/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part2_navigation/scripts/basic_velocity_control.py

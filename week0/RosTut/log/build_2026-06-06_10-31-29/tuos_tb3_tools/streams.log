@@ -1,5 +1,0 @@
-[0.038s] Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_tb3_tools -- -j12 -l12
-[0.062s] [0mCMake Error: The current CMakeCache.txt directory /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_tb3_tools/CMakeCache.txt is different than the directory /home/n3h4/Desktop/NEHA/SEDRICA/RosTut/build/tuos_tb3_tools where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.092s] [0mCMake Error: The source directory "/home/n3h4/Desktop/NEHA/SEDRICA/RosTut/tuos_ros/tuos_tb3_tools" does not exist.
-[0.092s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.095s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
