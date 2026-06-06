@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation -- -j12 -l12
+[0.062s] Built target ament_cmake_python_symlink_part2_navigation_modules
+[0.304s] running egg_info
+[0.304s] writing part2_navigation_modules.egg-info/PKG-INFO
+[0.304s] writing dependency_links to part2_navigation_modules.egg-info/dependency_links.txt
+[0.304s] writing top-level names to part2_navigation_modules.egg-info/top_level.txt
+[0.306s] reading manifest file 'part2_navigation_modules.egg-info/SOURCES.txt'
+[0.307s] writing manifest file 'part2_navigation_modules.egg-info/SOURCES.txt'
+[0.328s] Built target ament_cmake_python_build_part2_navigation_modules_egg
+[0.338s] Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation -- -j12 -l12
+[0.347s] Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation
+[0.353s] -- Install configuration: ""
+[0.354s] -- Execute custom install script
+[0.354s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/environment/pythonpath.sh
+[0.354s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/environment/pythonpath.dsv
+[0.354s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/local/lib/python3.10/dist-packages/part2_navigation_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[0.355s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/local/lib/python3.10/dist-packages/part2_navigation_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.355s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/local/lib/python3.10/dist-packages/part2_navigation_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.355s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/local/lib/python3.10/dist-packages/part2_navigation_modules-0.0.0-py3.10.egg-info/top_level.txt
+[0.355s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/local/lib/python3.10/dist-packages/part2_navigation_modules/__init__.py
+[0.355s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/local/lib/python3.10/dist-packages/part2_navigation_modules/tb3_tools.py
+[0.355s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/lib/part2_navigation/basic_velocity_control.py
+[0.356s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/lib/part2_navigation/stop_me.py
+[0.356s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/lib/part2_navigation/odom_subscriber.py
+[0.356s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/lib/part2_navigation/move_circle.py
+[0.356s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/ament_index/resource_index/package_run_dependencies/part2_navigation
+[0.356s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/ament_index/resource_index/parent_prefix_path/part2_navigation
+[0.356s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/environment/ament_prefix_path.dsv
+[0.357s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/environment/path.sh
+[0.357s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/environment/path.dsv
+[0.357s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/local_setup.bash
+[0.357s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/local_setup.sh
+[0.357s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/local_setup.zsh
+[0.357s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/local_setup.dsv
+[0.357s] -- Symlinking: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/package.dsv
+[0.366s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/ament_index/resource_index/packages/part2_navigation
+[0.366s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/cmake/part2_navigationConfig.cmake
+[0.366s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/cmake/part2_navigationConfig-version.cmake
+[0.366s] -- Up-to-date symlink: /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/share/part2_navigation/package.xml
+[0.396s] Listing '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation/local/lib/python3.10/dist-packages/part2_navigation_modules'...
+[0.402s] Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation

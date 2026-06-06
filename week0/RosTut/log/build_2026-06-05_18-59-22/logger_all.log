@@ -1,0 +1,326 @@
+[0.181s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x741ad48e40a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x741ad4a6d570>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x741ad4a6d570>>)
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.574s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(part1_pubsub) by extension 'ros'
+[0.595s] DEBUG:colcon.colcon_core.package_identification:Package 'part1_pubsub' with type 'ros.ament_cmake' and name 'part1_pubsub'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(part2_navigation) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package 'part2_navigation' with type 'ros.ament_cmake' and name 'part2_navigation'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'ros'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['cmake', 'python']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'cmake'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'python'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extensions ['python_setup_py']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros) by extension 'python_setup_py'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/com2009_simulations) by extension 'ros'
+[0.599s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/com2009_simulations' with type 'ros.ament_cmake' and name 'com2009_simulations'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_examples) by extension 'ros'
+[0.601s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_examples' with type 'ros.ament_cmake' and name 'tuos_examples'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_interfaces) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_interfaces' with type 'ros.ament_cmake' and name 'tuos_interfaces'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_ros) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_ros' with type 'ros.ament_cmake' and name 'tuos_ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_simulations) by extension 'ros'
+[0.606s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_simulations' with type 'ros.ament_cmake' and name 'tuos_simulations'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(tuos_ros/tuos_tb3_tools) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'tuos_ros/tuos_tb3_tools' with type 'ros.ament_cmake' and name 'tuos_tb3_tools'
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.718s] DEBUG:colcon.colcon_core.verb:Building package 'part1_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part1_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part1_pubsub', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part1_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_target' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'part2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part2_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_examples', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.722s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_target' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.722s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_tb3_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_tb3_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_tb3_tools', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_tb3_tools', 'symlink_install': False, 'test_result_base': None}
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_args' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_target' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.723s] DEBUG:colcon.colcon_core.verb:Building package 'com2009_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/com2009_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/com2009_simulations', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/com2009_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_target' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.724s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_ros', 'merge_install': False, 'path': '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_ros', 'symlink_install': False, 'test_result_base': None}
+[0.724s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_simulations' with build type 'ament_cmake'
+[0.726s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_simulations'
+[0.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_examples' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_examples'
+[0.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.744s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_interfaces' with build type 'ament_cmake'
+[0.744s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_interfaces'
+[0.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_tb3_tools' with build type 'ament_cmake'
+[0.749s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/tuos_ros/tuos_tb3_tools'
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.753s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part1_pubsub' with build type 'ament_cmake'
+[0.753s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part1_pubsub'
+[0.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part2_navigation' with build type 'ament_cmake'
+[0.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part2_navigation'
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_simulations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_simulations -- -j12 -l12
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_examples -- -j12 -l12
+[0.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_interfaces -- -j12 -l12
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_tb3_tools -- -j12 -l12
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part1_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part1_pubsub -- -j12 -l12
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/part2_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/part2_navigation -DCMAKE_INSTALL_PREFIX=/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/part2_navigation
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_examples -- -j12 -l12
+[0.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_examples)
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples' for CMake module files
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples' for CMake config files
+[0.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_examples', 'cmake_prefix_path')
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.ps1'
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.dsv'
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.sh'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/lib'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/bin'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/lib/pkgconfig/tuos_examples.pc'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/lib/python3.10/site-packages'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/bin'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/package.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/package.dsv'
+[0.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/package.sh'
+[0.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/package.bash'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/tuos_examples/package.zsh'
+[0.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_examples/share/colcon-core/packages/tuos_examples)
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_simulations' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_simulations -- -j12 -l12
+[0.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_simulations)
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations' for CMake module files
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations' for CMake config files
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_simulations', 'cmake_prefix_path')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.sh'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/bin'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/lib/pkgconfig/tuos_simulations.pc'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/lib/python3.10/site-packages'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/bin'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/package.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/package.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/package.sh'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/package.bash'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/tuos_simulations/package.zsh'
+[0.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_simulations/share/colcon-core/packages/tuos_simulations)
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/build/tuos_interfaces -- -j12 -l12
+[0.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_interfaces)
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces' for CMake module files
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'cmake_prefix_path')
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.dsv'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.sh'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/lib'
+[0.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'ld_library_path_lib')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.sh'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/bin'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/lib/pkgconfig/tuos_interfaces.pc'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/lib/python3.10/site-packages'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/bin'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.bash'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/tuos_interfaces/package.zsh'
+[0.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/tuos_interfaces/share/colcon-core/packages/tuos_interfaces)
+[2.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.798s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.807s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.829s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/local_setup.ps1'
+[2.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/_local_setup_util_ps1.py'
+[2.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/setup.ps1'
+[2.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/local_setup.sh'
+[2.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/_local_setup_util_sh.py'
+[2.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/setup.sh'
+[2.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/local_setup.bash'
+[2.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/setup.bash'
+[2.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/local_setup.zsh'
+[2.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/n3h4/Desktop/NEHA/SEDRICA/STAR/week0/RosTut/install/setup.zsh'
