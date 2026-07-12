@@ -1,0 +1,12 @@
+/week0/RosTut/build/
+/week0/RosTut/install
+/week0/RosTut/log
+week0/RosTut/build/
+week0/RosTut/install
+week0/RosTut/log
+build/
+install/
+log/
+.vscode/
+*.pyc
+frames_*
